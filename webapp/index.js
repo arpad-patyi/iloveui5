@@ -1,6 +1,12 @@
-sap.ui.define([ ], 
-              function() {
-                  'use strict'; 
-                  alert("UI5 is ready for Árpád Patyi"); 
+sap.ui.define([ 
+                "sap/m/Text"
+                ], 
+                function(Text) {
+                    "use strict"; 
+                
+                    new Text({
+                        text: "Hello Árpád"
+                    }).placeAt("content"); 
+                
                 }
             );
