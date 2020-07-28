@@ -1,0 +1,15 @@
+{
+  "name": "walktrough",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bsync": "npx browser-sync start --server \"webapp\" --directory --serveStatic \"..\" --files \"webapp\\css\\*.css\" --no-open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.12"
+  }
+}
