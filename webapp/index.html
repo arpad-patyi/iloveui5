@@ -10,11 +10,14 @@
 		    data-sap-ui-libs            ="sap.m"
 		    data-sap-ui-compatVersion   = "edge"
 		    data-sap-ui-async           ="true"
-		    data-sap-ui-onInit          ="module:development/index"
+		    data-sap-ui-onInit          ="module:sap/ui/core/ComponentSupport"
 		    data-sap-ui-resourceroots   ='{ "development": "./" }'>
 	</script>
     </head>
     <body class="sapUiBody" id="content">
-        
+				<div data-sap-ui-component 
+				data-name="development"
+				data-id="container"
+				data-settings='{"id" : "development"}'></div>
     </body>
 </html>

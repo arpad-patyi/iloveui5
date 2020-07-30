@@ -6,12 +6,7 @@ sap.ui.define([
           "use strict";
           return UIComponent.extend("development.Component", {
           metadata : {
-            rootView : {
-              "viewName": "development.view.App",
-              "type"    : "XML",
-              "async"   : true, 
-              "id"      : "app"
-            }
+            manifest : "json"
           },
           
           init : function () {
@@ -19,7 +14,7 @@ sap.ui.define([
           
           var oData = {
             recipient : {
-              name : "Wolrd"
+              name : "World"
             }
           };
           var oModel = new JSONModel(oData);
